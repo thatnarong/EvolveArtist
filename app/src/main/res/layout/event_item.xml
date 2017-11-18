@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    tools:context="com.example.thatnarong.project.Event_item">
+
+
+    <include layout="@layout/floating_action_button"
+       />
+    <!--<TextView-->
+    <!--android:id="@+id/textView3"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_alignParentStart="true"-->
+    <!--android:layout_alignParentTop="true"-->
+    <!--android:layout_marginStart="18dp"-->
+    <!--android:layout_marginTop="12dp"-->
+    <!--android:text="DATE"-->
+    <!--android:textColor="@android:color/background_light"-->
+    <!--android:textSize="18sp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView4"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="VENUE"-->
+    <!--android:textColor="@android:color/background_light"-->
+    <!--android:textSize="18sp"-->
+        <!--android:layout_below="@+id/textView3"-->
+        <!--android:layout_alignStart="@+id/textView3" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/textView5"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="LOCATION"-->
+    <!--android:textColor="@android:color/background_light"-->
+    <!--android:textSize="18sp"-->
+        <!--android:layout_below="@+id/textView4"-->
+        <!--android:layout_alignStart="@+id/textView4" />-->
+
+    <TextView
+        android:id="@+id/eventDateTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+
+        android:layout_marginStart="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/venueEventTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/eventDateTextView"
+        android:layout_alignStart="@+id/eventDateTextView" />
+
+    <TextView
+        android:id="@+id/locationEventTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/venueEventTextView"
+        android:layout_alignStart="@+id/venueEventTextView" />
+
+
+</RelativeLayout>
